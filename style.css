@@ -1,11 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 97vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 65px;
-    color: white;
-    background-color: black;
-    font-style: oblique;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    background-color: #d5d5d5;
+}
+
+.container{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: 100px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #c0c0c0;
+    padding: 0 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.34);
+}
+
+.name{
+    font-size: 32px;
+    font-weight: 400;
 }
